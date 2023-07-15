@@ -1,4 +1,4 @@
 StudentID : 2213110535
 StudentName : Niraphat Konghuayrob
-DatetoStudy : 24/06/2023
-ClassTopic : Basic Javascipt
+DatetoStudy : 15/07/2023
+ClassTopic : Basic Javascipt 2
