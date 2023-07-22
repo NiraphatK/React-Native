@@ -9,7 +9,7 @@ const Counter = () => {
       <Text>{count}</Text>
       <Button
         title="Click Me"
-        onPress={() => {setCount(count + 1}}
+        onPress={() => {setCount(count + 1)}}
       />
     </View>
   );
