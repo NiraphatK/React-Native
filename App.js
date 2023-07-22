@@ -3,13 +3,15 @@ import React from 'react'
 import MyInputs from './components/MyInputs'
 import IncrementCounter from './components/IncrementCounter'
 import Form from './components/Form'
+import Login from './components/Login'
 
 const App = () => {
   return (
     <View style = {styles.container}>
       {/* <MyInputs/> */}
       {/* <IncrementCounter/> */}
-      <Form/>
+      {/* <Form/> */}
+      <Login/>
     </View>
   )
 }
