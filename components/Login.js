@@ -29,6 +29,7 @@ const Login = () => {
       value={textInputEmail}
       onChangeText={(value)=>{setTextInputEmail(value)}}
       />
+      <Text>{'\n'}</Text>
       <Button
       title='SUBMIT'
       onPress={checkTextInput}
