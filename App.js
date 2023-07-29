@@ -4,6 +4,7 @@ import MyInputs from './components/MyInputs'
 import IncrementCounter from './components/IncrementCounter'
 import Form from './components/Form'
 import Login from './components/Login'
+import Recap from './components/Recap'
 
 const App = () => {
   return (
@@ -11,7 +12,8 @@ const App = () => {
       {/* <MyInputs/> */}
       {/* <IncrementCounter/> */}
       {/* <Form/> */}
-      <Login/>
+      {/* <Login/> */}
+      <Recap/>
       
     </View>
   )
