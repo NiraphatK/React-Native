@@ -3,13 +3,19 @@ import { StyleSheet, Text, View } from "react-native";
 import RandomUserScreen from './components/RandomUserScreen.js'
 import FlatList_Example1 from './components/FlatList_Example1.js'
 import FlatList_HeaderFooter from "./components/FlatList_HeaderFooter.js";
+import FlastListAPi from "./components/FlastListAPi.js";
+import News from "./components/News.js";
+
+
 
 export default function App() {
   return (
     <View style={styles.container}>
       {/* <RandomUserScreen/> */}
       {/* <FlatList_Example1/> */}
-      <FlatList_HeaderFooter/>
+      {/* <FlatList_HeaderFooter/> */}
+      {/* <FlastListAPi/> */}
+      <News/>
     </View>
   );
 }
