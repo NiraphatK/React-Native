@@ -23,9 +23,9 @@ const FlatList_HeaderFooter = () => {
     const ItemView = ({item})=>{
         return(
             // FlatList Item
-            <View style = {styles.itemStyle}>
+            <View >
                 <Text 
-                style = {styles.item}
+                style = {styles.itemStyle}
                 onPress = {()=>getItem(item)}          
                 >
                     {item.id}
