@@ -4,7 +4,7 @@ import React from 'react'
 const ThirdPage = ({navigation}) => {
   return (
     <View style = {styles.container}> 
-       <Text style = {textStyle}>This is the Third Page of the app</Text>
+       <Text style = {styles.textStyle}>This is the Third Page of the app</Text>
        <Button
             title='Go back'
             onPress={()=>navigation.goBack()} //.push suitable for server (refresh page)
