@@ -1,4 +1,4 @@
 StudentID : 2213110535 
 StudentName : Niraphat Konghuayrob 
-DatetoStudy : 02/09/2023 
-ClassTopic : React Navigator : Stack Navigator
+DatetoStudy : 09/09/2023 
+ClassTopic : Stack & Drawer Navigator
