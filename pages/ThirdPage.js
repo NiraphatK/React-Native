@@ -7,7 +7,7 @@ const ThirdPage = ({navigation}) => {
        <Text style = {styles.textStyle}>This is the Third Page of the app</Text>
        <Button
             title='Go back'
-            onPress={()=>navigation.goBack()} //.push suitable for server (refresh page)
+            onPress={()=>navigation.goBack()}
         />
          <Button
             title='Go to second page'
@@ -15,7 +15,7 @@ const ThirdPage = ({navigation}) => {
         />
          <Button
             title='Reset navigator to first page'
-            onPress={()=>navigation.navigate('FirstPage')} //.push suitable for server (refresh page)
+            onPress={()=>navigation.navigate('FirstPage')}
         />
         
     </View>

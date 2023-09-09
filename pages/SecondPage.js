@@ -7,7 +7,7 @@ const SecondPage = ({navigation}) => {
         <Text style = {styles.textStyle}>This is the Second Page of the app</Text>
        <Button
             title='Go back'
-            onPress={()=>navigation.goBack()} //.push suitable for server (refresh page)
+            onPress={()=>navigation.goBack()}
         />
         <Button
             title='Go to secondpage... again'
